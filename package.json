@@ -1,0 +1,28 @@
+{
+  "name": "commandlineappontime",
+  "version": "1.0.0",
+  "description": "Team profile generator using OOPs concept",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugerald/commandlineappontime.git"
+  },
+  "keywords": [
+    "Node",
+    "CLI",
+    "jest"
+  ],
+  "author": "James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugerald/commandlineappontime/issues"
+  },
+  "homepage": "https://github.com/eugerald/commandlineappontime#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^29.4.1"
+  }
+}
