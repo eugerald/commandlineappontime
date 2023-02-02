@@ -4,7 +4,7 @@ const Engineer = require("inquirer")
 const Intern = require("./library/Intern")
 const fs = require("fs")
 let engineerHTML =""
-
+let managerHTML = ""
 function init() {
     inquirer.createPromptModule([
         {
@@ -102,13 +102,13 @@ function addManager(){
         },
         {
             type:"input",
-            name:"github",
-            message:"Enter github: ",
+            name:"officenumber",
+            message:"Enter office number: ",
 
         },
     ]).then(response =>{
-        const hireEngineer = new Engineer(response.name,response.id,response.email, response.github)
-        console.log(hireEngineer)
+        const manager = new manager(response.name,response.id,response.email, response.officenumber)
+        console.log(manager)
         engineerHTML += `
         
         <div class="card" style="width: 18rem;">
@@ -123,7 +123,7 @@ function addManager(){
     })
 }
 function addEngineer(){
-    console.log("----Add Engineer-----")
+    console.log("----Add  Intern-")
     inquirer.prompt([
         {
             type:"input",
